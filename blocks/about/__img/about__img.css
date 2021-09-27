@@ -1,0 +1,29 @@
+.about__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1150px) {
+  .about__img {
+    position: relative;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .about__img {
+    width: 599px;
+    height: 575px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about__img {
+    width: 387px;
+    height: 372px;
+  }
+}
+
+

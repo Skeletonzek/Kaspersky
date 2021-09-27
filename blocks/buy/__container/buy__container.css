@@ -1,0 +1,24 @@
+.buy__container {
+  background: linear-gradient(271.57deg, rgba(0, 168, 142, 0.4) 77.05%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:1150px) {
+  .buy__container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .buy__container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 16px;
+    width: calc(100vw - 96px);
+  }
+}

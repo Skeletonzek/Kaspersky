@@ -1,0 +1,21 @@
+@import url(./__text/compatible__text.css);
+@import url(./__img/compatible__img.css);
+
+.compatible {
+  display: flex;
+  align-items: center;
+  padding: 8px 0px 8px 29px;
+}
+
+@media screen and (max-width: 775px) {
+  .compatible {
+    padding-left: 36px
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .compatible {
+    flex-wrap: wrap;
+  }
+}
+

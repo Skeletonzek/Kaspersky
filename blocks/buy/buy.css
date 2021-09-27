@@ -1,0 +1,17 @@
+@import url(./__container/buy__container.css);
+@import url(./__container/_visible/buy__container_visible.css);
+
+.buy {
+  width: calc(100% - 32px);
+  max-width: 1172px;
+  margin: 0 auto;
+  margin-top: -96px;
+  position: relative;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1150px) {
+  .buy {
+    margin-top: 0px;
+  }
+}

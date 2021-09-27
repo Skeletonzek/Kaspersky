@@ -1,0 +1,17 @@
+.price__value {
+  font-family: 'Kaspersky', Arial, sans-serif;
+  font-size: 64px;
+  line-height: .81;
+  color: #1D1D1B;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 775px) {
+  .price__value {
+    font-size: 54px;
+    line-height: .96;
+  }
+}

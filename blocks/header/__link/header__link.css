@@ -1,0 +1,14 @@
+.header__link {
+  display: flex;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  opacity: .8;
+  cursor: pointer;
+  transition: opacity .5s linear;
+}
+
+.header__link:active {
+  transform: scale(.9);
+}

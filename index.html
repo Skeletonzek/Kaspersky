@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./pages/index.css">
+  <title>kaspersky</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="header__container">
+        <a class="header__link" href="https://www.kaspersky.ru/" target="_blank"><img class="header__logo"
+            src="./images/logo.svg" alt="logo"></a>
+        <div class="header__wrapper">
+          <select class="header__select">
+            <option value="GBP">GBP</option>
+            <option value="USD">USD</option>
+          </select>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="about">
+        <img class="about__img" src="./images/background.png" alt="Фон">
+        <article class="about__container">
+          <h1 class="about__title">Don’t let malware <br> defeat you</h1>
+          <div class="about__bar"></div>
+          <p class="about__text">Protect your devices with <br>
+            a security suite made for gamers</p>
+          <ul class="about__list">
+            <li class="about__list-element">
+              <span class="about__list-element_type_bold">Gaming mode:</span>
+              Ensures optimal <br> PC performance while you play
+            </li>
+            <li class="about__list-element">
+              <span class="about__list-element_type_bold">100% detection rate:</span>
+              Never misses a threat
+            </li>
+            <li class="about__list-element">
+              <span class="about__list-element_type_bold">Cutting-edge cybersecurity:</span>
+              Runs on AI <br> overseen by world-leading threat analysts
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="buy">
+        <div class="compatible">
+          <p class="compatible__text">Compatible with:</p>
+            <a href="https://www.google.com/" target="_blank" class="compatible__img"></a>
+            <a href="https://www.google.com/" target="_blank" class="compatible__img"></a>
+            <a href="https://www.google.com/" target="_blank" class="compatible__img"></a>
+            <a href="https://www.google.com/" target="_blank" class="compatible__img"></a>
+        </div>
+        <div class="buy__container">
+          <article class="product">
+            <img class="product__img" src="./images/product-icon.svg" alt="product">
+            <div class="product__container">
+              <h2 class="product__title">Kaspersky Internet Security</h2>
+              <ul class="product__rating">
+                <li class="product__star"></li>
+                <li class="product__star"></li>
+                <li class="product__star"></li>
+                <li class="product__star"></li>
+                <li class="product__star"></li>
+              </ul>
+            </div>
+          </article>
+          <div class="price">
+            <p class="price__value price__value_type_nosale">&pound;34.99</p>
+            <p class="price__value">&pound;35.99</p>
+            <p class="price__sale">Save 20%</p>
+          </div>
+          <form class="form">
+            <div class="form__wrapper">
+              <select class="form__select">
+                <option value="1D1Y">1 Device, 1 Year</option>
+                <option value="1D2Y">1 Device, 2 Years</option>
+                <option value="3D1Y" selected>3 Devices, 1 Year</option>
+                <option value="3D2Y">3 Devices, 2 Years</option>
+                <option value="5D1Y">5 Devices, 1 Year</option>
+                <option value="5D2Y">5 Devices, 2 Years</option>
+              </select>
+            </div>
+            <button class="form__submit" type="submit">Buy Now</button>
+          </form>
+        </div>
+      </section>
+      <form class="form-mobile">
+        <div class="form-mobile__container">
+          <h2 class="form-mobile__title">Kaspersky Internet Security</h2>
+          <p class="form-mobile__info"><span class="form-mobile__price">£35.99</span> - 3 Devices, 1 year</p>
+        </div>
+        <button class="form__submit form-mobile__submit" type="submit">Buy Now</button>
+      </form>
+    </main>
+  </div>
+</body>
+<script src="./pages/index.js"></script>
+
+</html>

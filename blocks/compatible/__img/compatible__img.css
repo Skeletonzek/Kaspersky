@@ -1,0 +1,54 @@
+.compatible__img {
+  display: block;
+  height: 24px;
+  padding: 0 16px;
+  border-right: 1px solid #666666;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+}
+
+.compatible__img:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: opacity .5s linear;
+}
+
+.compatible__img:active {
+  background-size: 90%;
+}
+
+.compatible__img:nth-of-type(1) {
+  width: 16px;
+  background-image: url(../../../images/win.svg);
+}
+
+.compatible__img:nth-of-type(2) {
+  width: 43px;
+  background-image: url(../../../images/mac.svg);
+}
+
+.compatible__img:nth-of-type(3) {
+  width: 22px;
+  background-image: url(../../../images/android.svg);
+}
+
+.compatible__img:nth-of-type(4) {
+  width: 20px;
+  background-image: url(../../../images/ios.svg);
+  border-right: none;
+}
+
+@media screen and (max-width: 500px) {
+  .compatible__img {
+    padding: 0 20px;
+  }
+
+  .compatible__img:nth-of-type(1) {
+    padding-left: 7px;
+  }
+
+  .compatible__img:nth-of-type(4) {
+    padding-right: 0;
+  }
+}

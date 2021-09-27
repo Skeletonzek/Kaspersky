@@ -1,0 +1,12 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/font.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/buy/buy.css);
+@import url(../blocks/compatible/compatible.css);
+@import url(../blocks/product/product.css);
+@import url(../blocks/price/price.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form-mobile/form-mobile.css);
+@import url(../blocks/form-mobile/_novisible/form-mobile_novisible.css);

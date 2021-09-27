@@ -1,0 +1,34 @@
+.about__list-element {
+  font-family: 'Kaspersky', Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.33;
+  color: rgba(255, 255, 255, .8);
+  margin: 0 0 20px 36px;
+  padding: 0;
+  position: relative;
+}
+
+.about__list-element:last-of-type {
+  margin-bottom: 0;
+}
+
+.about__list-element::before {
+  display: block;
+  width: 17px;
+  height: 13px;
+  background-image: url(../../../images/stroke.svg);
+  content: '';
+  position: absolute;
+  left: -18px;
+  top: 10px;
+  transform: translate(-100%, 0);
+}
+
+@media screen and (max-width: 775px) {
+  .about__list-element {
+    font-size: 20px;
+    line-height: 1.60;
+  }
+}
+
+

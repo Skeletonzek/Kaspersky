@@ -1,0 +1,11 @@
+@import url(./__img/product__img.css);
+@import url(./__container/product__container.css);
+@import url(./__title/product__title.css);
+@import url(./__rating/product__rating.css);
+@import url(./__star/product__star.css);
+
+
+.product {
+  display: flex;
+  align-items: center
+}

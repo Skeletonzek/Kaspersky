@@ -1,0 +1,24 @@
+.product__rating {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 6px 0 0;
+}
+
+.product__rating::after {
+  content: '(1503 reviews)';
+  font-family: 'Kaspersky', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #1D1D1B;
+}
+
+.product__rating:hover::after {
+  opacity: .8;
+  cursor: pointer;
+  transition: opacity .5s linear;
+}
+
+.product__rating:active::after {
+  transform: scale(.9);
+}

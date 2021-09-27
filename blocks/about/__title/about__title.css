@@ -1,0 +1,23 @@
+.about__title {
+  font-family: 'Kaspersky', Arial, sans-serif;
+  font-size: 64px;
+  line-height: 1.06;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 775px) {
+  .about__title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about__title {
+    font-size: 36px;
+    line-height: 1.11;
+  }
+}
+

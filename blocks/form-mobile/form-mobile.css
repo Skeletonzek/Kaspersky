@@ -1,0 +1,21 @@
+@import url(./__container/form-mobile__container.css);
+@import url(./__title/form-mobile__title.css);
+@import url(./__info/form-mobile__info.css);
+@import url(./__price/form-mobile__price.css);
+@import url(./__submit/form-mobile__submit.css);
+
+.form-mobile {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(317.5deg, rgba(0, 168, 142, 0.4) 66.18%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+}
+
+@media screen and (max-width: 775px) {
+  .form-mobile {
+    margin-top: 20px;
+    display: flex;
+  }
+}

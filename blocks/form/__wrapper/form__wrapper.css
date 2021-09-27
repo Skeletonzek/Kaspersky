@@ -1,0 +1,30 @@
+.form__wrapper {
+  position: relative;
+  background-color: transparent;
+  width: 191px;
+  height: 48px;
+}
+
+.form__wrapper:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: opacity .5s linear;
+}
+
+.form__wrapper::after {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-left: 2px solid #1D1D1B;
+  border-bottom: 2px solid #1D1D1B;
+  top: 15px;
+  right: 18px;
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width:775px) {
+  .form__wrapper {
+    width: 100%;
+  }
+}

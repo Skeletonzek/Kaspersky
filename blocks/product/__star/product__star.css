@@ -1,0 +1,72 @@
+/* Ниже была попытка сделать звездочки, используя только CSS, но столкнулся с парой проблем:
+
+1) Не получилось их закрулить в соответсвии с макетом
+
+2) Не смог реализовать на CSS последнюю звезду(закрасить только половину)
+
+Код удалять не стал, после комментария написана реализация через обычный background-img*/
+
+/* .product__star {
+  margin: 0;
+  position: relative;
+  display: block;
+  color: #FFE810;
+  width: 0px;
+  height: 0px;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid #FFE810;
+  border-left: 15px solid transparent;
+  transform: rotate(35deg);
+}
+.product__star::before {
+  border-bottom: 13px solid #FFE810;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -9px;
+  left: -10px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+.product__star::after {
+  position: absolute;
+  display: block;
+  color: #FFE810;
+  top: 1px;
+  left: -16px;
+  width: 0px;
+  height: 0px;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid #FFE810;
+  border-left: 15px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
+
+.product__star:last-of-type {
+
+}
+
+.product__star:last-of-type::after {
+
+}
+
+.product__star:last-of-type::before {
+
+} */
+
+.product__star {
+  width: 15px;
+  height: 15px;
+  background-image: url(../../../images/star-full.svg);
+  margin-right: 5px;
+}
+
+.product__star:last-of-type {
+  background-image: url(../../../images/star-half.svg);
+  margin-right: 10px;
+}
+
